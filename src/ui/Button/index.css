@@ -1,0 +1,53 @@
+.m_button {
+    white-space: nowrap;
+    background-color: rgba(143, 188, 143, 0.5);
+    border: 1px solid transparent;
+    color: white;
+    font-size: 14px;
+    height: 34px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.m_button:hover {
+    background-color: rgba(32, 178, 170, 0.4);
+    color: #282c34;
+}
+
+.m_button:active {
+    background-color: rgba(85, 107, 47, 0.5);
+    color: #fff;
+}
+
+.active {
+    background-color: rgba(85, 107, 47, 0.5);
+    color: #fff;
+}
+
+.user {
+    margin: 3px 0;
+    width: 100%;
+    display: flex;
+    padding: 7px 5px;
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 8px;
+    color: #282c34;
+}
+
+.selected {
+    background-color: rgba(0, 255, 127, 0.2);
+}
+
+.user > span:last-of-type {
+    margin-left: auto;
+    background-color: rgba(105, 105, 105, 0.5);
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 4px;
+}
+
+.filter {
+    margin-right: 5px;
+}

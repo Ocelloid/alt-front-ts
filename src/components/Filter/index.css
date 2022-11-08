@@ -1,0 +1,12 @@
+.filter-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.filter-wrapper > .m_input {
+    width: 200px;
+}
+
+.filter-buttons {
+    margin-right: auto;
+}

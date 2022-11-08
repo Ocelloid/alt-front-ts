@@ -1,0 +1,26 @@
+.message-wrapper {
+    padding: 5px 0;
+    background: transparent;
+}
+
+.message-user-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.message-user-name > span {
+    margin-left: auto;
+}
+
+.message-body {
+    background: radial-gradient(circle at 100% 100%, #f9f9f9 0, #f9f9f9 3px, transparent 3px) 0 0/8px 8px no-repeat,
+    radial-gradient(circle at 0 100%, #f9f9f9 0, #f9f9f9 3px, transparent 3px) 100% 0/8px 8px no-repeat,
+    radial-gradient(circle at 100% 0, #f9f9f9 0, #f9f9f9 3px, transparent 3px) 0 100%/8px 8px no-repeat,
+    radial-gradient(circle at 0 0, #f9f9f9 0, #f9f9f9 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+    linear-gradient(#f9f9f9, #f9f9f9) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+    linear-gradient(#f9f9f9, #f9f9f9) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+    linear-gradient(transparent 0%, #20B2AA66 100%);
+    border-radius: 8px;
+    padding: 9px;
+    box-sizing: border-box;
+}

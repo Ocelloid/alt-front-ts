@@ -1,0 +1,20 @@
+.m_input {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+    color: #333;
+    font-size: 14px;
+    padding: 8px 12px 9px 12px;
+}
+
+.m_country_input {
+    width: 100%
+}
+
+.m_input:focus {
+     border: 1px solid yellowgreen;
+     box-shadow: 0 0 5px darkslategray inset 0 0 0 1px yellowgreen;
+     outline: none;
+}
